@@ -1,0 +1,173 @@
+/*header*/
+.dark{
+    background-color: rgb(44, 2, 35);
+    height: 80px;
+
+}
+header{
+	
+	width: 1170px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+    color: darkslategray;
+
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav{
+	width: 500px;
+	margin-left: 700px;
+}
+
+h1{
+	margin-left: 110px;
+	font-size: 30px;
+	color: #ff9500e3;
+}
+
+h1::before{
+	content:"Web ";
+	color: #0000ff;
+}
+
+.li-a{
+	font-size: 14px;
+	color: #15ff00;
+}
+
+/*section 1 start*/
+
+.s-1{
+	margin-top: 200px;
+
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.p-1{
+	font-size: 40px;
+	color: #4d2800;
+}
+
+.p-2{
+	margin-top: 30px;
+	font-size: 12px;
+	color: #474747;
+}
+
+.button-1{
+	margin-top: 100px;
+	background-color: blue;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.button-1:hover{
+	font-size: 20px;
+}
+
+.img-size{
+	width: 500px;
+	height: 450px;
+	object-fit: contain;
+}
+/*section 1 end*/
+/*section 2 start*/
+.s-2{
+	margin-top: 100px;
+}
+
+.s2-p-1{
+	font-size: 20px;
+	color: blue;
+}
+
+.s2-p-2{
+	font-size: 30px;
+	color: #694724;
+	margin-top: 10px;
+}
+
+.s2-p3{
+	font-size: 15px;
+	margin-top: 10px;
+	color: #464601;
+}
+
+.card-img-size{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.container-1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.card{
+	width: 300px;
+	height: 300px;
+	padding: 30px;
+}
+
+.button-2{
+	border: 1px white solid;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+
+.button-2:hover{
+	background-color: gray;
+	font-size: 20px;
+}
+
+h2{
+	font-size: 20px;
+	color: white;
+}
+
+h3{
+	margin-top: 9px;
+	color: white;
+	font-size: 13px;
+}
+.card.orangered{
+	background-color: #ff5100;
+}
+
+.card.blue{
+	background-color: #002761;
+}
+
+.card.purple{
+	background-color: #ff00ff;
+}
+
+.card.light-blue{
+	background-color: #0066ff;
+}
+
+.card.light-purple{
+	background-color: #a769e6;
+}
+
+.card.red{
+	background-color: #ff5100;
+}
+.end{
+    margin-top: 50px;
+}
